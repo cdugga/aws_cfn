@@ -208,7 +208,7 @@ Resources:
     Properties:
       RouteTableId: !Ref rtpublic
       DestinationCidrBlock: 0.0.0.0/0
-      GatewayId: !Ref igwvpc1
+      GatewayId: !Ref igwvpc1  
   rtpublicpubA:
     Type: 'AWS::EC2::SubnetRouteTableAssociation'
     Properties:
